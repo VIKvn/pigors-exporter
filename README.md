@@ -1,16 +1,21 @@
-# This code is taken entirely from 7given
+# Phigros_Resource
+本项目包含资源文件
 
-In gameInformation.py :     
-```
-with open("info/tips.txt", "w", encoding="utf8") as f:
-        for tip in Tips.tips[0].tips:
-            f.write(tip)
-            f.write("\n")
-```
-The number 0 in Tips.tips[0] can be replaced with 1 (another CN language), 2 (EN), 3 (JP) and 4(KR)
+资源包括
 
-# Step-by-step how to export game (in visual studio): #
-1. Add apk to the same folder as gameInformation.py and typetree.json
-2. Run this command in terminal: *pip install UnityPy==1.10.18*
-3. Run this command in terminal: *python gameInformation.py Phigros.apk*
-   **Phigros.apk** is the name of apk file
+[信息](../../tree/info)
+
+定数，收藏品id对应中文标题，头像id，tips
+
+曲id，曲名，曲师，画师，谱师
+
+[头像图片](../../tree/avatar)，
+[铺面文件](../../tree/chart)，
+[曲绘](../../tree/illustration)，
+[模糊曲绘](../../tree/illustrationBlur)，
+[低质量曲绘](../../tree/illustrationLowRes)，
+[音乐文件](../../tree/music)
+
+生成适配Phira的pez自制谱文件
+# 生成自制谱文件
+`python phira.py`
