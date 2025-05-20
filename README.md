@@ -9,7 +9,7 @@ with open("info/tips.txt", "w", encoding="utf8") as f:
 ```
 The number 0 in Tips.tips[0] can be replaced with 1 (another CN language), 2 (EN), 3 (JP) and 4(KR)
 
-# Step-by-step to export game (in visual studio): #
+
 # Step-by-step how to export game (in visual studio): #
 1. Add apk to the same folder as gameInformation.py and typetree.json
 2. Run this command in terminal: 'pip install UnityPy==1.10.18'
