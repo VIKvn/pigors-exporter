@@ -1,4 +1,4 @@
-# This code is taken entirely from [https://github.com/7aGiven/Phigros_Resource/| 7agiven] 
+# This code is taken entirely from [[https://github.com/7aGiven/Phigros_Resource/ | 7agiven]]
 
 In gameInformation.py :     
 ```
